@@ -8,6 +8,7 @@
 
     <!-- The code below represent the components that appear in the first screen of the application -->
 
+    <!-- some instructions -->
     <TextView
         android:id="@+id/reveal_intro"
         android:layout_width="333dp"
@@ -24,6 +25,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- the completed Jaberwocky mad lib -->
     <TextView
         android:id="@+id/reveal_jabberwocky"
         android:layout_width="333dp"
@@ -43,6 +45,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/reveal_intro" />
 
+    <!-- clicking this button runs the startAgain() method in the Controller, which transitions to the first activity -->
     <Button
         android:id="@+id/reveal_button"
         android:layout_width="333dp"

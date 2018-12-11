@@ -9,6 +9,7 @@
 
     <!-- The code below represent the components that appear in the first screen of the application -->
 
+    <!-- some instructions... currently just lorem ipsum nonsense text -->
     <TextView
         android:id="@+id/main_intro"
         android:layout_width="333dp"
@@ -18,13 +19,14 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:text="@string/main_intro_text"
+        android:hint="@string/main_intro_text"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- the singular noun field -->
     <EditText
         android:id="@+id/main_n1_input"
         android:layout_width="328dp"
@@ -35,13 +37,14 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:ems="10"
+        android:hint="@string/main_noun_instructions"
         android:inputType="textPersonName"
         android:onClick="clearEditText"
-        android:text="@string/main_noun_instructions"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/main_intro" />
 
+    <!-- the first plural noun field -->
     <EditText
         android:id="@+id/main_np1_input"
         android:layout_width="328dp"
@@ -52,13 +55,14 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:ems="10"
+        android:hint="@string/main_noun_plural_instructions"
         android:inputType="textPersonName"
         android:onClick="clearEditText"
-        android:text="@string/main_noun_plural_instructions"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/main_n1_input" />
 
+    <!-- the second plural noun field -->
     <EditText
         android:id="@+id/main_np2_input"
         android:layout_width="328dp"
@@ -69,13 +73,14 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:ems="10"
+        android:hint="@string/main_noun_plural_instructions"
         android:inputType="textPersonName"
-        android:text="@string/main_noun_plural_instructions"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/main_np1_input"
         tools:onClick="clearEditText" />
 
+    <!-- the first adjective field -->
     <EditText
         android:id="@+id/main_a1_input"
         android:layout_width="328dp"
@@ -86,13 +91,14 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:ems="10"
+        android:hint="@string/main_adj_instructions"
         android:inputType="textPersonName"
         android:onClick="clearEditText"
-        android:text="@string/main_adj_instructions"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/main_np2_input" />
 
+    <!-- the first verb field -->
     <EditText
         android:id="@+id/main_v1_input"
         android:layout_width="328dp"
@@ -103,13 +109,14 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:ems="10"
+        android:hint="@string/main_verb_instructions"
         android:inputType="textPersonName"
         android:onClick="clearEditText"
-        android:text="@string/main_verb_instructions"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/main_a1_input" />
 
+    <!-- clicking this button runs the submitText() method in the Controller, which transitions to the second activity -->
     <Button
         android:id="@+id/main_button"
         android:layout_width="333dp"
