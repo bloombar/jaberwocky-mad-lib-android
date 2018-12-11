@@ -1,7 +1,3 @@
-# unit testing files that are not relevant to this project
-/app/src/androidTest/
-/app/src/test/
-
 *.iml
 .gradle
 /local.properties
