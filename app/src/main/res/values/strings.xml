@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Jabberwocky Mad Lib</string>
+    <string name="main_intro_text">Bacon ipsum dolor amet venison kevin cow, shankle jowl prosciutto ham rump. Chuck burgdoggen bacon turkey porchetta. Cow brisket cupim jerky. Bacon corned beef pancetta</string>
+    <string name="main_button_text">Jabberwock Me!</string>
+    <string name="main_input_text">Enter a message</string>
+    <string name="reveal_intro_text">Here is your completed Jabberwocky poem:</string>
+    <string name="reveal_button_text">Try again!</string>
+    <string name="main_noun_instructions">Enter a singular noun</string>
+    <string name="main_noun_plural_instructions">Enter a plural noun</string>
+    <string name="main_adj_instructions">Enter an adjective</string>
+    <string name="main_verb_instructions">Enter a verb</string>
+    <string name="reveal_jabberwocky_text">
+Twas {n1}, and the slithy {np1}
+Did gyre and {v1} in the wabe;
+All {a1} were the borogoves,
+And the mome {np2} outgrabe.
+
+“Beware the Jabberwock, my {n2}!
+The {np3} that bite, the claws that {v2}!
+Beware the Jubjub {n3}, and shun
+The {a2} Bandersnatch
+    </string>
+</resources>
