@@ -7,6 +7,8 @@
     tools:context=".MainActivity"
     tools:layout_editor_absoluteY="81dp">
 
+    <!-- The code below represent the components that appear in the first screen of the application -->
+
     <TextView
         android:id="@+id/main_intro"
         android:layout_width="333dp"

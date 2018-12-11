@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".RevealMadLibActivity">
 
+    <!-- The code below represent the components that appear in the first screen of the application -->
+
     <TextView
         android:id="@+id/reveal_intro"
         android:layout_width="333dp"
