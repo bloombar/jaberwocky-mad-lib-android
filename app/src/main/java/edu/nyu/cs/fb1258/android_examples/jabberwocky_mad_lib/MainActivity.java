@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * The text of the Mad Lib will be stored as a key/value pair as it is passed from this Activity to the next.  This is the key that will be used.  The value will be the complete Mad Lib text, once we generate that.
      */
-    public static final String EXTRA_MESSAGE = "edu.nyu.cs.fb1258.android_examples.jabberwocky_mad_lib.MESSAGE";
+    public static final String MESSAGE_KEY = "MAD_LIB";
 
     /**
      * This method is automatically called when this screen is loaded.
@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, RevealMadLibActivity.class);
 
         // make the compelted mad lib text is available to the next screen by storing it as a message
-        intent.putExtra(EXTRA_MESSAGE, message);
+        intent.putExtra(MESSAGE_KEY, message);
 
         // switch to the next screen, RevealMadLibActivity
         startActivity(intent);

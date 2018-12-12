@@ -27,7 +27,7 @@ public class RevealMadLibActivity extends AppCompatActivity {
         Intent intent = getIntent();
 
         // get the completed Mad Lib from this Intent object
-        String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+        String message = intent.getStringExtra(MainActivity.MESSAGE_KEY);
 
         // get access to the TextView where we will display the complete Jabberwocky Mad Lib
         TextView textView = findViewById(R.id.reveal_jabberwocky);
