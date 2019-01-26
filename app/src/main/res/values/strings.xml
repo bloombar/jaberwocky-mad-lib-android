@@ -1,4 +1,5 @@
 <resources>
+    <!-- this is a set of key/value pairs that define common bits of text used in this application -->
     <string name="app_name">Jabberwocky Mad Lib</string>
     <string name="main_intro_text">Bacon ipsum dolor amet venison kevin cow, shankle jowl prosciutto ham rump. Chuck burgdoggen bacon turkey porchetta. Cow brisket cupim jerky. Bacon corned beef pancetta</string>
     <string name="main_button_text">Jabberwock Me!</string>
